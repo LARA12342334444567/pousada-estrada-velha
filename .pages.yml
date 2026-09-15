@@ -1,0 +1,262 @@
+media:
+  - name: images
+    label: Fotos da pousada
+    input: assets/fotos
+    output: /assets/fotos
+    extensions: [jpg, jpeg, png, webp]
+    categories: [image]
+    rename: safe
+
+content:
+  - name: site
+    label: Conteúdo do site
+    type: file
+    path: content/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: brand
+        label: Marca
+        type: object
+        fields:
+          - name: name
+            label: Nome da pousada
+            type: string
+          - name: location
+            label: Localização curta
+            type: string
+      - name: seo
+        label: Google / SEO
+        type: object
+        fields:
+          - name: title
+            label: Título da página
+            type: string
+          - name: description
+            label: Descrição da página
+            type: text
+      - name: hero
+        label: Capa / destaque inicial
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: image
+            label: Foto da capa
+            type: image
+            options:
+              media: images
+              extensions: [jpg, jpeg, png, webp]
+      - name: intro
+        label: Apresentação
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+      - name: audiences
+        label: Públicos
+        type: object
+        fields:
+          - name: work
+            label: Para quem vem a trabalho
+            type: object
+            fields:
+              - name: eyebrow
+                label: Texto pequeno
+                type: string
+              - name: title
+                label: Título
+                type: string
+              - name: text
+                label: Texto
+                type: text
+          - name: tourism
+            label: Para quem vem a turismo
+            type: object
+            fields:
+              - name: eyebrow
+                label: Texto pequeno
+                type: string
+              - name: title
+                label: Título
+                type: string
+              - name: text
+                label: Texto
+                type: text
+      - name: rooms
+        label: Acomodações
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: image
+            label: Foto do quarto
+            type: image
+            options:
+              media: images
+          - name: amenities
+            label: Comodidades
+            type: string
+            list: true
+      - name: view
+        label: Vista / varanda
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: image
+            label: Foto da varanda
+            type: image
+            options:
+              media: images
+      - name: breakfast
+        label: Café da manhã
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: images
+            label: Fotos do café
+            type: image
+            list: true
+            options:
+              media: images
+              multiple:
+                max: 6
+              unique: true
+      - name: region
+        label: A região
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: images
+            label: Fotos da região
+            type: image
+            list: true
+            options:
+              media: images
+              multiple:
+                max: 6
+              unique: true
+      - name: places
+        label: O que tem próximo
+        type: object
+        list:
+          max: 8
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: distance
+            label: Distância / indicação
+            type: string
+          - name: title
+            label: Local
+            type: string
+          - name: text
+            label: Descrição
+            type: text
+      - name: sunset
+        label: Pôr do sol
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: image
+            label: Foto do pôr do sol
+            type: image
+            options:
+              media: images
+      - name: location
+        label: Localização
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: address
+            label: Endereço
+            type: text
+          - name: text
+            label: Texto
+            type: text
+          - name: mapsUrl
+            label: Link do Google Maps
+            type: string
+      - name: reservation
+        label: Reserva / WhatsApp
+        type: object
+        fields:
+          - name: eyebrow
+            label: Texto pequeno
+            type: string
+          - name: title
+            label: Título
+            type: string
+          - name: text
+            label: Texto
+            type: text
+          - name: whatsapp
+            label: WhatsApp da pousada (somente números)
+            type: string
+            pattern:
+              regex: "^[0-9]{10,15}$"
+              message: "Informe apenas números, com código do país."
+
+settings:
+  content:
+    merge: true
