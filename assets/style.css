@@ -3,7 +3,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}
 .container{width:min(1160px,88%);margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:800}.red{color:var(--red)}.green{color:var(--green)}
 .header{position:fixed;z-index:30;top:0;left:0;right:0;background:rgba(255,253,249,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(230,223,212,.7)}
-.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;display:flex;gap:12px;align-items:center}.brand-mark{width:39px;height:48px;border:2px solid var(--red);border-radius:50% 50% 45% 45%;display:grid;place-items:center;color:var(--red);font-weight:900;font-size:13px}.brand strong{display:block;letter-spacing:.08em;font-size:.9rem}.brand span{display:block;color:var(--muted);font-size:.68rem;letter-spacing:.13em;margin-top:2px}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;display:flex;gap:12px;align-items:center}.brand-mark{width:59px;height:56px;object-fit:contain;flex:none}.brand strong{display:block;letter-spacing:.08em;font-size:.9rem}.brand span{display:block;color:var(--muted);font-size:.68rem;letter-spacing:.13em;margin-top:2px}
 .navlinks{display:flex;align-items:center;gap:26px;font-size:.88rem}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--red)}.menu{display:none;border:0;background:none;font-size:25px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--red);color:white;text-decoration:none;border:0;border-radius:999px;padding:14px 21px;font-weight:800;cursor:pointer;box-shadow:0 8px 20px rgba(150,53,45,.18);transition:.2s}.btn:hover{transform:translateY(-1px);background:var(--red-dark)}.btn-light{background:#fff;color:var(--red);box-shadow:none}.btn-green{background:var(--green)}.btn-green:hover{background:var(--green-dark)}
 .hero{min-height:100vh;display:flex;align-items:end;background:linear-gradient(90deg,rgba(16,16,13,.78),rgba(16,16,13,.32) 58%,rgba(16,16,13,.08)),url("fotos/fachada.jpg") center/cover no-repeat;color:white;padding:150px 0 90px}.hero-copy{max-width:760px}.hero h1{font-family:Georgia,serif;font-size:clamp(3rem,7vw,6.3rem);line-height:.92;margin:18px 0}.hero p{font-size:clamp(1.05rem,2vw,1.35rem);line-height:1.55;margin:0 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
@@ -36,7 +36,7 @@ button,input,select,textarea{font-size:16px}
   .header{height:64px}
   .nav{height:64px}
   .brand{gap:9px;min-width:0}
-  .brand-mark{width:34px;height:42px;font-size:11px;flex:none}
+  .brand-mark{width:47px;height:45px}
   .brand strong{font-size:.78rem;letter-spacing:.06em;white-space:nowrap}
   .brand span{font-size:.58rem;letter-spacing:.08em}
   .menu{font-size:28px;line-height:1;padding:6px}
