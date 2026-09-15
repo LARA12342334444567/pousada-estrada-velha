@@ -1,0 +1,109 @@
+{
+  "brand": {
+    "name": "Pousada Estrada Velha",
+    "location": "Conceição do Mato Dentro · Minas Gerais"
+  },
+  "seo": {
+    "title": "Pousada Estrada Velha | Hospedagem em Conceição do Mato Dentro",
+    "description": "Pousada Estrada Velha em Conceição do Mato Dentro. Hospedagem para quem vem trabalhar e para quem vem conhecer a região. Consulte disponibilidade pelo WhatsApp."
+  },
+  "hero": {
+    "eyebrow": "Conceição do Mato Dentro · Minas Gerais",
+    "title": "Pousada Estrada Velha",
+    "text": "Hospedagem em Conceição do Mato Dentro.\nPara quem vem trabalhar. Para quem vem conhecer.",
+    "image": "/assets/fotos/fachada.jpg"
+  },
+  "intro": {
+    "eyebrow": "Uma pousada para diferentes motivos de viagem",
+    "title": "Praticidade para o trabalho. Paisagem para o descanso.",
+    "text": "Uma hospedagem em Conceição do Mato Dentro para quem chega à cidade a trabalho, para quem vem conhecer as belezas naturais da região e para quem quer simplesmente descansar com uma boa vista."
+  },
+  "audiences": {
+    "work": {
+      "eyebrow": "Para profissionais",
+      "title": "Está vindo a trabalho?",
+      "text": "Hospedagem prática para profissionais, equipes e estadias de alguns dias ou períodos maiores."
+    },
+    "tourism": {
+      "eyebrow": "Para visitantes",
+      "title": "Está vindo conhecer a região?",
+      "text": "Fique perto das paisagens, cachoeiras e trilhas de Conceição do Mato Dentro, com dicas de quem conhece a região. Na pousada, montamos roteiros personalizados de acordo com o seu perfil e tempo disponível, incluindo trilhas, passeios e visitas a igrejas e outros pontos de interesse da região."
+    }
+  },
+  "rooms": {
+    "eyebrow": "Acomodações",
+    "title": "Quartos com vista para as montanhas",
+    "text": "Opções para hóspedes individuais, casais, trios e grupos. A maioria dos quartos combina uma cama de casal com duas camas de solteiro.",
+    "image": "/assets/fotos/quarto-novo.webp",
+    "amenities": [
+      "Varanda",
+      "Ar-condicionado",
+      "Banheiro privativo",
+      "Wi-Fi",
+      "TV",
+      "Frigobar"
+    ]
+  },
+  "view": {
+    "eyebrow": "Vista",
+    "title": "Uma varanda para aproveitar a paisagem",
+    "text": "Todos os quartos têm varanda e vista para a paisagem do Parque Natural Municipal Salão de Pedras.",
+    "image": "/assets/fotos/varanda-nova.webp"
+  },
+  "breakfast": {
+    "eyebrow": "Café da manhã",
+    "title": "Comece o dia com uma mesa cheia de sabores",
+    "text": "Bolos e outros itens preparados na própria pousada, além de tapiocas doces e salgadas e ovos mexidos preparados na hora.",
+    "images": [
+      "/assets/fotos/cafe-1.jpg",
+      "/assets/fotos/cafe-2.jpg",
+      "/assets/fotos/cafe-3.jpg"
+    ]
+  },
+  "region": {
+    "eyebrow": "Visite a região",
+    "title": "Natureza que vale a viagem",
+    "text": "Conceição do Mato Dentro reúne cachoeiras, trilhas, montanhas e paisagens marcantes. A pousada também é um ponto de partida para conhecer a região.",
+    "images": [
+      "/assets/fotos/regiao-1.jpg",
+      "/assets/fotos/regiao-2.jpg",
+      "/assets/fotos/regiao-3.png"
+    ]
+  },
+  "places": [
+    {
+      "distance": "Aproximadamente 200 m",
+      "title": "Balneário Água Quente",
+      "text": "Uma atração próxima à pousada, ideal para incluir no roteiro de quem visita a região."
+    },
+    {
+      "distance": "Aproximadamente 800 m",
+      "title": "Shopping Bela Vista Mall",
+      "text": "Uma opção próxima para quem precisa de serviços, compras e conveniência durante a estadia."
+    },
+    {
+      "distance": "Próximo à pousada",
+      "title": "Parque Natural Municipal Salão de Pedras",
+      "text": "Paisagem marcante que compõe a vista dos quartos e o entorno da pousada."
+    }
+  ],
+  "sunset": {
+    "eyebrow": "Ao fim do dia",
+    "title": "Pôr do sol da pousada",
+    "text": "Uma vista que também faz parte da experiência de se hospedar aqui.",
+    "image": "/assets/fotos/por-do-sol.jpg"
+  },
+  "location": {
+    "eyebrow": "Localização",
+    "title": "Fácil de encontrar em Conceição do Mato Dentro",
+    "address": "Antiga MG-010, 700 — Bela Vista\nConceição do Mato Dentro — MG",
+    "text": "Consulte a rota no Google Maps antes de sair.",
+    "mapsUrl": "https://www.google.com.br/maps?lsig=AB86z5XL4rVzbnAhN1sNz67gZWzH&um=1&ie=UTF-8&fb=1&gl=br&sa=X&geocode=KZm-NEWAaa8AMfinoiuD9j6K&daddr=Rua+antiga,+MG-010,+700+-+Bela+vista,+Concei%C3%A7%C3%A3o+do+Mato+Dentro+-+MG,+35860-000"
+  },
+  "reservation": {
+    "eyebrow": "Reserva direta",
+    "title": "Consulte sua hospedagem",
+    "text": "Preencha os dados e enviaremos a solicitação diretamente para o WhatsApp da pousada. A reserva não é confirmada automaticamente: a pousada verifica a disponibilidade e responde.",
+    "whatsapp": "5531983396952"
+  }
+}
