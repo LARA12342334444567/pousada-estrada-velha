@@ -3,7 +3,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}
 .container{width:min(1160px,88%);margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:800}.red{color:var(--red)}.green{color:var(--green)}
 .header{position:fixed;z-index:30;top:0;left:0;right:0;background:rgba(255,253,249,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(230,223,212,.7)}
-.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;display:flex;gap:12px;align-items:center}.brand-mark{width:59px;height:56px;object-fit:contain;flex:none}.brand strong{display:block;letter-spacing:.08em;font-size:.9rem}.brand span{display:block;color:var(--muted);font-size:.68rem;letter-spacing:.13em;margin-top:2px}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;display:flex;gap:12px;align-items:center}.brand-mark{width:60px;height:68px;object-fit:contain;flex:none}.brand strong{display:block;letter-spacing:.08em;font-size:.9rem}.brand span{display:block;color:var(--muted);font-size:.68rem;letter-spacing:.13em;margin-top:2px}
 .navlinks{display:flex;align-items:center;gap:26px;font-size:.88rem}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--red)}.menu{display:none;border:0;background:none;font-size:25px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--red);color:white;text-decoration:none;border:0;border-radius:999px;padding:14px 21px;font-weight:800;cursor:pointer;box-shadow:0 8px 20px rgba(150,53,45,.18);transition:.2s}.btn:hover{transform:translateY(-1px);background:var(--red-dark)}.btn-light{background:#fff;color:var(--red);box-shadow:none}.btn-green{background:var(--green)}.btn-green:hover{background:var(--green-dark)}
 .hero{min-height:100vh;display:flex;align-items:end;background:linear-gradient(90deg,rgba(16,16,13,.78),rgba(16,16,13,.32) 58%,rgba(16,16,13,.08)),url("fotos/fachada.jpg") center/cover no-repeat;color:white;padding:150px 0 90px}.hero-copy{max-width:760px}.hero h1{font-family:Georgia,serif;font-size:clamp(3rem,7vw,6.3rem);line-height:.92;margin:18px 0}.hero p{font-size:clamp(1.05rem,2vw,1.35rem);line-height:1.55;margin:0 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
@@ -15,7 +15,7 @@ section{padding:100px 0}.intro{text-align:center;max-width:850px}.intro h2,.sect
 .sunset{min-height:650px;background:linear-gradient(90deg,rgba(20,20,17,.65),rgba(20,20,17,.08)),url("fotos/por-do-sol.jpg") center/cover;display:flex;align-items:end;color:#fff}.sunset .copy{max-width:620px}.sunset .copy p{color:#f1eee8}
 .reserve{background:var(--green);color:white}.reserve-box{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:start}.reserve h2{font-family:Georgia,serif;font-size:clamp(2.4rem,4vw,4.2rem);line-height:1;margin:10px 0 18px}.reserve p{line-height:1.7;color:#e8eadf}.form{background:white;color:var(--ink);padding:30px;border-radius:25px;box-shadow:var(--shadow)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:.8rem;font-weight:800}.field input,.field select,.field textarea{font:inherit;padding:13px 14px;border:1px solid #dcd7cf;border-radius:11px;background:#fff}.field textarea{min-height:90px;resize:vertical}.form small{display:block;color:#777;margin:13px 0 16px;line-height:1.45}
 .location{display:grid;grid-template-columns:1fr .9fr;gap:50px;align-items:center}.map-card{background:#ded9ce;border-radius:28px;min-height:390px;display:grid;place-items:center;text-align:center;padding:30px}.map-card strong{font-family:Georgia,serif;font-size:1.7rem}.map-card a{margin-top:18px}
-footer{background:#252720;color:#fff;padding:45px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px}.footer-grid p{color:#c9cabf;line-height:1.7}.footer-links{display:flex;gap:20px;align-items:flex-end}.footer-links a{text-decoration:none}
+footer{background:#252720;color:#fff;padding:45px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px}.footer-grid p{color:#c9cabf;line-height:1.7}.footer-nav{display:flex;flex-direction:column;align-items:flex-end;justify-content:space-between;gap:22px}.footer-links{display:flex;gap:20px;align-items:flex-end}.footer-links a,.footer-social a{text-decoration:none}.footer-social{display:flex;flex-direction:column;align-items:flex-end;gap:10px}.footer-social a{display:flex;align-items:center;gap:9px;color:#e6e7df;font-size:.9rem}.footer-social a:hover{color:#fff}.footer-social svg{width:20px;height:20px;fill:currentColor;flex:none}
 .reveal{opacity:1;transform:none;transition:.7s}.reveal.visible{opacity:1;transform:none}
 @media(max-width:850px){.navlinks{display:none}.menu{display:block}.navlinks.open{display:flex;position:absolute;top:78px;left:0;right:0;background:white;padding:22px 6%;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.navlinks .btn{width:100%}.split,.feature,.reserve-box,.location,.places{grid-template-columns:1fr}.feature.reverse .photo{order:0}.photo{height:430px}.gallery{grid-template-columns:1fr}.gallery img,.gallery img:first-child,.region-gallery img,.region-gallery img:first-child{height:340px;grid-row:auto}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-grid{flex-direction:column}.footer-links{align-items:flex-start}.hero{min-height:88vh;padding-bottom:65px}}
 .breakfast-gallery{grid-template-columns:repeat(3,1fr)}.breakfast-gallery img,.breakfast-gallery img:first-child{height:360px;grid-row:auto}.places{grid-template-columns:repeat(3,1fr)}
@@ -36,7 +36,7 @@ button,input,select,textarea{font-size:16px}
   .header{height:64px}
   .nav{height:64px}
   .brand{gap:9px;min-width:0}
-  .brand-mark{width:47px;height:45px}
+  .brand-mark{width:44px;height:53px}
   .brand strong{font-size:.78rem;letter-spacing:.06em;white-space:nowrap}
   .brand span{font-size:.58rem;letter-spacing:.08em}
   .menu{font-size:28px;line-height:1;padding:6px}
@@ -101,6 +101,7 @@ button,input,select,textarea{font-size:16px}
 
   footer{padding:35px 0 95px}
   .footer-grid{gap:22px}
+  .footer-nav,.footer-social{align-items:flex-start}
   .footer-links{display:grid;grid-template-columns:1fr 1fr;gap:4px 18px}
   .footer-links a{padding:8px 0}
 
