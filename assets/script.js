@@ -42,5 +42,9 @@ const form=document.getElementById('reservationForm');
 form?.addEventListener('submit',e=>{
  e.preventDefault(); const fd=new FormData(form); const phone=window.pousadaConfig?.reservation?.whatsapp||'5531983396952';
  const msg=`🏨 NOVA SOLICITAÇÃO DE HOSPEDAGEM\n\nNome: ${fd.get('nome')}\nWhatsApp: ${fd.get('whatsapp')}\nCheck-in: ${fd.get('checkin')}\nCheck-out: ${fd.get('checkout')}\nHóspedes: ${fd.get('hospedes')}\nAcomodação: ${fd.get('acomodacao')}\nMotivo: ${fd.get('motivo')}\nObservações: ${fd.get('observacoes')||'Não informado'}\n\nGostaria de receber a confirmação da disponibilidade e o valor da hospedagem.`;
- window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`,'_blank');
+ const whatsappUrl=`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
+ if(typeof gtag==='function'){
+   gtag('event','conversion',{'send_to':'AW-18359313925/CTMgCKuIif4cEIXMs7JE'});
+ }
+ window.open(whatsappUrl,'_blank');
 });
