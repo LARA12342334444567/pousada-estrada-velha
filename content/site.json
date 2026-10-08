@@ -11,7 +11,7 @@
     "eyebrow": "Conceição do Mato Dentro · Minas Gerais",
     "title": "Pousada Estrada Velha",
     "text": "Hospedagem em Conceição do Mato Dentro.\nPara quem vem trabalhar. Para quem vem conhecer.",
-    "image": "/assets/fotos/fachada.jpg"
+    "image": "/assets/fotos/quarto-principal-1600.webp"
   },
   "intro": {
     "eyebrow": "Uma pousada para diferentes motivos de viagem",
@@ -48,13 +48,14 @@
     "eyebrow": "Vista",
     "title": "Uma varanda para aproveitar a paisagem",
     "text": "Todos os quartos têm varanda e vista para a paisagem do Parque Natural Municipal Salão de Pedras.",
-    "image": "/assets/fotos/varanda-nova.webp"
+    "image": "/assets/fotos/varanda.jpg"
   },
   "breakfast": {
     "eyebrow": "Café da manhã",
     "title": "Comece o dia com uma mesa cheia de sabores",
     "text": "Bolos e outros itens preparados na própria pousada, além de tapiocas doces e salgadas e ovos mexidos preparados na hora.",
     "images": [
+      "/assets/fotos/cafe-da-manha-800.webp",
       "/assets/fotos/cafe-1.jpg",
       "/assets/fotos/cafe-2.jpg",
       "/assets/fotos/cafe-3.jpg"
@@ -103,7 +104,15 @@
   "reservation": {
     "eyebrow": "Reserva direta",
     "title": "Consulte sua hospedagem",
-    "text": "Preencha os dados e enviaremos a solicitação diretamente para o WhatsApp da pousada. A reserva não é confirmada automaticamente: a pousada verifica a disponibilidade e responde.",
-    "whatsapp": "5531983396952"
+    "text": "Converse diretamente com a pousada pelo WhatsApp para consultar a disponibilidade e os valores. A reserva será confirmada pela nossa equipe.",
+    "whatsapp": "5531983396952",
+    "message": "Olá! Gostaria de consultar a disponibilidade e os valores da hospedagem."
+  },
+  "rates": {
+    "title": "Nossas diárias",
+    "individual": "200,00",
+    "double": "300,00",
+    "included": "Café da manhã incluso.",
+    "notice": "Os valores das diárias podem variar conforme os dados da hospedagem e a disponibilidade."
   }
 }

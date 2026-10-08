@@ -68,6 +68,25 @@ content:
           - name: text
             label: Texto
             type: text
+      - name: rates
+        label: Nossas diárias
+        type: object
+        fields:
+          - name: title
+            label: Título
+            type: string
+          - name: individual
+            label: Individual — a partir de (ex. 200,00)
+            type: string
+          - name: double
+            label: Duplo ou casal — a partir de (ex. 300,00)
+            type: string
+          - name: included
+            label: Informação sobre café da manhã
+            type: string
+          - name: notice
+            label: Aviso sobre variação de valores
+            type: text
       - name: audiences
         label: Públicos
         type: object
@@ -249,6 +268,9 @@ content:
             type: string
           - name: text
             label: Texto
+            type: text
+          - name: message
+            label: Mensagem automática do WhatsApp
             type: text
           - name: whatsapp
             label: WhatsApp da pousada (somente números)

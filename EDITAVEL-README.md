@@ -8,7 +8,10 @@ Estrutura preparada para publicação com GitHub + Cloudflare Pages + Pages CMS.
 - O conteúdo editável fica em `content/site.json`.
 - As fotos ficam em `assets/fotos/`.
 - O Pages CMS lê `.pages.yml` e permite editar textos e trocar/enviar fotos sem mexer no HTML.
-- O formulário de reserva abre o WhatsApp da pousada com a solicitação preenchida.
+- Os botões de reserva abrem diretamente o WhatsApp da pousada com a mensagem configurada.
+- A seção Nossas diárias e a mensagem automática são editáveis no Pages CMS.
+- Todos os botões de WhatsApp preservam a conversão Google Ads `AW-18359313925/CTMgCKuIif4cEIXMs7JE`. O evento mede o clique, não a confirmação de uma reserva.
+- As imagens novas são WebP em diferentes tamanhos. As fotos e o logotipo anteriores foram mantidos.
 
 ## Publicação recomendada
 
